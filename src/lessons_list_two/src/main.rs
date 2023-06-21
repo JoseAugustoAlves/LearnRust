@@ -17,6 +17,9 @@ fn main() {
 
     //4.Faça um loop for sobre os elementos da tupla e imprima cada um deles.
     
+    for i in tuple.iter(){
+        println!("{}", i);
+    }
     //5.Use a função tuple.swap(0, 1) para trocar os elementos da tupla.
 
     //6.Use a função tuple.len() para obter o comprimento da tupla.
